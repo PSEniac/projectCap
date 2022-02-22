@@ -6,26 +6,25 @@
 
 ## Instalação
 
-                                     Usuário
+                                                                  Usuário
 
-                                     Windows
+                                                                  Windows
 
 * Obs: É importante ter o java jdk instalado, preferencialmente as últimas versões para executar os arquivos .jar. Você pode baixar [aqui](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 
 * Basta baixar os algoritmos.jar da pasta executáveis e colocar em uma pasta de fácil acesso (preferencialmente área de trabalho).
 
 
-
-                                        Linux
+                                                                 Linux
 * Usarei o debian como exemplo. Os seus derivados como ubuntu, lubuntu e todas as outras distribuições baseadas no debian. Note que pode ser que para algumas distribuições tenha algumas diferenças e outras SOs como Fedora, RedHat e etc, podem ser totalmente diferentes...
 
 
-                             sudo apt-get install vim
+                                                       sudo apt-get install vim
 
 * Feito isso, vá para o terminal e digite o seguinte:
 
 
-                        sudo apt-get install openjdk-11-jdk
+                                                sudo apt-get install openjdk-11-jdk
 
 
 * Digite y quando o terminal linux requisitar
@@ -68,7 +67,7 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 
 ## Instruções
 
-                                     Windows
+                                                                 Windows
 
 * Abra o prompt do windows
 
@@ -78,7 +77,7 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 
   Exemplo: java -jar Algoritmo01.jar e aperte enter
 
-                                   Linux
+                                                               Linux
 
 * Baixe os arquivos executáveis (exemplo: Algoritmo01.jar, Algoritmo03.jar e etc...) e salve preferencialmente na pasta que você preferir. Pessoalmente, aconselho a pasta home apenas para testar...
 algoritmo que você quer extrair exemplo, Algoritmo01.jar
@@ -88,7 +87,7 @@ algoritmo que você quer extrair exemplo, Algoritmo01.jar
 
 Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian).
 
-                                    Código
+                                                                 Código
 
 - Abra a bash do git
 - Em seguida, digite git clone
