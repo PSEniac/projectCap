@@ -89,7 +89,7 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 
                                                               Código
 
-- Abra a bash do git
+- Abra o bash do git
 - Em seguida, digite git clone
 - Copie o link desse repositório do github: https://github.com/PSEniac/projectCap.git
 - Cole o link depois do git clone e aperte enter
