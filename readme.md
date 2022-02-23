@@ -85,7 +85,7 @@ algoritmo que você quer extrair exemplo, Algoritmo01.jar
 * Em seguida java -jar Algoritmo01.jar e aperte enter
 
 
-Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian).
+Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian). Você não só poderá executar essses algoritmos instalando o JDK 11 no linux, como programar em Java utilizando apenas editores de textos como Atom, Nano, Vim e etc... E vendo o resultado no bash do linux :D
 
                                                               Código
 
@@ -100,6 +100,7 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 ## Tecnologias
 
 * Java
+* Eclipse Installer 2020‑12-R
 
 ## Ajuda
 - Documentação Java: [aqui](https://docs.oracle.com/javase/10/)
