@@ -55,7 +55,7 @@ algoritmo que você quer extrair exemplo, Algoritmo01.jar
 * Em seguida java -jar Algoritmo01.jar e aperte enter
 
 
-Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian). Instalando o JDK, também habilita você a programa em java direto no editor de texto :D. Basta executar a classe depois no terminal para ver o resultado.
+Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian). Instalando o JDK, também habilita você a programar em java direto no editor de texto :D. Basta executar a classe depois no terminal para ver o resultado.
 
 
 ## Funcionalidades
@@ -94,7 +94,7 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 - Copie o link desse repositório do github: https://github.com/PSEniac/projectCap.git
 - Cole o link depois do git clone e aperte enter
 - Pelo git clone, basta digitar cd projectCap/ 
-- Você pode acessar os arquivos tanto pelo padrão de pastas e arquivos quanto pela bash do git
+- Você pode acessar os arquivos tanto pelo padrão de pastas e arquivos quanto pelo bash do git
 
 
 ## Tecnologias
@@ -117,7 +117,3 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 - Esse projeto me ajudou muito a melhorar como pessoa tanto quanto tecnicamente em java, passei muitas horas à fio tentando montar as estruturas desses algoritmos e os seus cálculos para ler a entrada e gerar exatidão na saída. Como podem ver, faltam várias correções e funcionalidades adicionais, mas, em breve terá novas atualizações. Apesar de ser iniciante, estou orgulhoso da luta pra chegar até aqui e de pelo menos ter entregado algoritmos que funcionem.
 
 - Espero que tenham gostado!
-
-## License
-
-MIT
