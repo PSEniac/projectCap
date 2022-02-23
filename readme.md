@@ -72,8 +72,7 @@ export PATH=" "JAVA_HOME/bin:" "PATH
 
                                                               Linux
 
-* Baixe os arquivos executáveis (exemplo: Algoritmo01.jar, Algoritmo03.jar e etc...) e salve preferencialmente na pasta que você preferir. Pessoalmente, aconselho a pasta home apenas para testar...
-algoritmo que você quer extrair exemplo, Algoritmo01.jar
+* Baixe os arquivos executáveis (exemplo: Algoritmo01.jar, Algoritmo03.jar e etc...) e salve preferencialmente na pasta que você preferir. Pessoalmente, aconselho a pasta home apenas para testar o algoritmo.jar que você quer executar
 * Abra o terminal e digite cd /home/(seusuario)
 * Em seguida java -jar Algoritmo01.jar e aperte enter
 
