@@ -49,13 +49,6 @@ export PATH=" "JAVA_HOME/bin:" "PATH
 * Para sair do modo edição e ir para o modo comando, aperte esc 2x
 * No modo comando, digite :wq! e aperte enter
 * Reinicie a sua distribuição
-* Baixe os arquivos executáveis (exemplo: Algoritmo01.jar, Algoritmo03.jar e etc...) e salve preferencialmente na pasta que você preferir. Pessoalmente, aconselho a pasta home apenas para testar...
-algoritmo que você quer extrair exemplo, Algoritmo01.jar
-* Abra o terminal e digite cd /home/(seusuario)
-* Em seguida java -jar Algoritmo01.jar e aperte enter
-
-
-Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian). Instalando o JDK, também habilita você a programar em java direto no editor de texto :D. Basta executar a classe depois no terminal para ver o resultado.
 
 
 ## Funcionalidades
