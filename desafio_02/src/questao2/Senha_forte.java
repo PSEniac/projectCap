@@ -8,7 +8,7 @@ public class Senha_forte {
 
 	/**
 	 * 
-	 * -- Método CountCharact --
+	 * 							-- Método CountCharact --
 	 * 
 	 * > Tem a função de comparar os parâmetros estabelecidos com a senha inserida
 	 * pelo usuário
@@ -67,7 +67,7 @@ public class Senha_forte {
 	}
 
 	/**
-	 * -- Método padrão main de execução do código --
+	 * 				-- Método padrão main de execução do código --
 	 * 
 	 * > Informações, inserção de dados, processamento e saída
 	 * 
