@@ -5,22 +5,23 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Senha_forte {
-	
+
 	/**
 	 * 
-	 * 						-- Método CountCharact --
-	 * 					
-	 * > Tem a função de comparar os parâmetros estabelecidos com a senha inserida pelo usuário
+	 * -- Método CountCharact --
 	 * 
-	 * @param password > String que tem a função de detectar parâmetros e a contagem destes
-	 * na string que o usuário inseriu, diferenciando de válidos e inválidos,
-	 *  retornando apenas os inválidos na saída
+	 * > Tem a função de comparar os parâmetros estabelecidos com a senha inserida
+	 * pelo usuário
+	 * 
+	 * @param password > String que tem a função de detectar parâmetros e a contagem
+	 *                 destes na string que o usuário inseriu, diferenciando de
+	 *                 válidos e inválidos, retornando apenas os inválidos na saída
 	 * 
 	 * @return retorna ao count = 0 que vai executar todos os parâmetros da função,
-	 * por um determinado número de vezes no método,
-	 * desde que a senha tenha no mínimo 6 caracteres
+	 *         por um determinado número de vezes no método, desde que a senha tenha
+	 *         no mínimo 6 caracteres
 	 */
-	 
+
 	static int countCharact(String password) {
 
 		int count = 0;
@@ -65,16 +66,18 @@ public class Senha_forte {
 		return count;
 	}
 
-		/** 				-- Método padrão main de execução do código --
-		 * 
-		 * > Informações, inserção de dados, processamento e saída
-		 * 
-		 * > Retorna ao usuário o resultado final da sua senha inserida, a mesma antes disso,
-		 * 	passa pelo método countCharact(senha) e volta ao main para mostrar na tela ao usuário
-		 * 	 
-		 * 
-		 * @param args
-		 */
+	/**
+	 * -- Método padrão main de execução do código --
+	 * 
+	 * > Informações, inserção de dados, processamento e saída
+	 * 
+	 * > Retorna ao usuário o resultado final da sua senha inserida, a mesma antes
+	 * disso, passa pelo método countCharact(senha) e volta ao main para mostrar na
+	 * tela ao usuário
+	 * 
+	 * 
+	 * @param args
+	 */
 	public static void main(String args[]) {
 
 		String secPsswd;
@@ -85,7 +88,7 @@ public class Senha_forte {
 		Scanner insertPsswd = new Scanner(System.in);
 
 		System.out.println("Qual e o seu idioma? / What is your language? ");
-		System.out.println("PT BR / ENG US");
+		System.out.println("PT BR / ENG ");
 		langPasswd = insertPsswd.nextLine();
 
 		if (langPasswd.equals(lPtbr)) {
@@ -115,22 +118,34 @@ public class Senha_forte {
 
 		secPsswd = insertPsswd.nextLine();
 
-		if (countCharact(secPsswd) < 1) {
-			System.out.println("Senha segura / Secure Password");
-		}
-		while (countCharact(secPsswd) >= 1) {
+		if (countCharact(secPsswd) < 1 && langPasswd.equals(lEng)) {
+			System.out.println("Secure Password / Congratulations!");
+		} else if (countCharact(secPsswd) < 1 && langPasswd == lPtbr)
+			System.out.println("Senha segura / Parabéns!");
+		while (countCharact(secPsswd) >= 1 && langPasswd.equals(lEng)) {
 			System.out.println();
-			System.out.printf("Senha insegura! Faltam %s caracteres ou digitos diferentes"
-					+ " para uma senha forte / Missing %s different characters or digits," + " for a strong password%n",
-					(countCharact(secPsswd)), (countCharact(secPsswd)));
+			System.out.printf("Insecure password! Missing %s characters, special characteres"
+					+ " or digits for a strong password%n", (countCharact(secPsswd)));
 			System.out.println();
-			System.out.print("Digite a sua senha / Enter your password: ");
+			System.out.print("Enter your password: ");
 			secPsswd = insertPsswd.nextLine();
 			System.out.println();
-
+			System.out.print("Secure Password! / Congratulations!");
+			System.out.println();
 		}
 
-		System.out.println("Senha segura / Secure Password");
+		while (countCharact(secPsswd) >= 1 && langPasswd.equals(lPtbr)) {
+			System.out.println();
+			System.out.printf("Senha insegura! Faltam %s caracteres, caracteres especiais"
+					+ " ou digitos diferentes para uma senha forte!", (countCharact(secPsswd)));
+			System.out.println();
+			System.out.print("Digite a sua senha: ");
+			secPsswd = insertPsswd.nextLine();
+			System.out.println();
+			System.out.print("Senha Segura! / Parabéns!");
+			System.out.println();
+
+		}
 
 	}
 }
