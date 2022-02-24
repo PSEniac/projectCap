@@ -6,26 +6,25 @@
 
 ## Instalação
 
-                                     Usuário
+                                                                  Usuário
 
-                                     Windows
+                                                                  Windows
 
 * Obs: É importante ter o java jdk instalado, preferencialmente as últimas versões para executar os arquivos .jar. Você pode baixar [aqui](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html)
 
 * Basta baixar os algoritmos.jar da pasta executáveis e colocar em uma pasta de fácil acesso (preferencialmente área de trabalho).
 
 
-
-                                        Linux
+                                                                 Linux
 * Usarei o debian como exemplo. Os seus derivados como ubuntu, lubuntu e todas as outras distribuições baseadas no debian. Note que pode ser que para algumas distribuições tenha algumas diferenças e outras SOs como Fedora, RedHat e etc, podem ser totalmente diferentes...
 
 
-                             sudo apt-get install vim
+                                                       sudo apt-get install vim
 
 * Feito isso, vá para o terminal e digite o seguinte:
 
 
-                        sudo apt-get install openjdk-11-jdk
+                                                sudo apt-get install openjdk-11-jdk
 
 
 * Digite y quando o terminal linux requisitar
@@ -50,13 +49,6 @@ export PATH=" "JAVA_HOME/bin:" "PATH
 * Para sair do modo edição e ir para o modo comando, aperte esc 2x
 * No modo comando, digite :wq! e aperte enter
 * Reinicie a sua distribuição
-* Baixe os arquivos executáveis (exemplo: Algoritmo01.jar, Algoritmo03.jar e etc...) e salve preferencialmente na pasta que você preferir. Pessoalmente, aconselho a pasta home apenas para testar...
-algoritmo que você quer extrair exemplo, Algoritmo01.jar
-* Abra o terminal e digite cd /home/(seusuario)
-* Em seguida java -jar Algoritmo01.jar e aperte enter
-
-
-Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian). Instalando o JDK, também habilita você a programa em java direto no editor de texto :D. Basta executar a classe depois no terminal para ver o resultado.
 
 
 ## Funcionalidades
@@ -68,7 +60,7 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 
 ## Instruções
 
-                                     Windows
+                                                              Windows
 
 * Abra o prompt do windows
 
@@ -78,29 +70,29 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 
   Exemplo: java -jar Algoritmo01.jar e aperte enter
 
-                                   Linux
+                                                              Linux
 
-* Baixe os arquivos executáveis (exemplo: Algoritmo01.jar, Algoritmo03.jar e etc...) e salve preferencialmente na pasta que você preferir. Pessoalmente, aconselho a pasta home apenas para testar...
-algoritmo que você quer extrair exemplo, Algoritmo01.jar
+* Baixe os arquivos executáveis (exemplo: Algoritmo01.jar, Algoritmo03.jar e etc...) e salve preferencialmente na pasta que você preferir. Pessoalmente, aconselho a pasta home apenas para testar o algoritmo.jar que você quer executar
 * Abra o terminal e digite cd /home/(seusuario)
 * Em seguida java -jar Algoritmo01.jar e aperte enter
 
 
-Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian).
+Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário que você estabeleceu na sua distribuição e também é visível no terminal linux antes do @debian (exemplo: teste@debian). Você não só poderá executar essses algoritmos instalando o JDK 11 no linux, como programar em Java utilizando apenas editores de textos como Atom, Nano, Vim e etc... E vendo o resultado no bash do linux :D
 
-                                    Código
+                                                              Código
 
-- Abra a bash do git
+- Abra o bash do git
 - Em seguida, digite git clone
 - Copie o link desse repositório do github: https://github.com/PSEniac/projectCap.git
 - Cole o link depois do git clone e aperte enter
 - Pelo git clone, basta digitar cd projectCap/ 
-- Você pode acessar os arquivos tanto pelo padrão de pastas e arquivos quanto pela bash do git
+- Você pode acessar os arquivos tanto pelo padrão de pastas e arquivos quanto pelo bash do git
 
 
 ## Tecnologias
 
 * Java
+* Eclipse Installer 2020‑12-R
 
 ## Ajuda
 - Documentação Java: [aqui](https://docs.oracle.com/javase/10/)
@@ -117,30 +109,3 @@ Pronto, o seu algoritmo será executado. No caso do "seu usuario" é o usuário 
 - Esse projeto me ajudou muito a melhorar como pessoa tanto quanto tecnicamente em java, passei muitas horas à fio tentando montar as estruturas desses algoritmos e os seus cálculos para ler a entrada e gerar exatidão na saída. Como podem ver, faltam várias correções e funcionalidades adicionais, mas, em breve terá novas atualizações. Apesar de ser iniciante, estou orgulhoso da luta pra chegar até aqui e de pelo menos ter entregado algoritmos que funcionem.
 
 - Espero que tenham gostado!
-
-## License
-
-MIT
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
